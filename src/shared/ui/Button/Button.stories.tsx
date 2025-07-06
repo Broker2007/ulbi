@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import {Button, ButtonSize, ButtonTheme} from './Button';
+import { Button, ButtonSize, ButtonTheme } from './Button';
 
 export default {
     title: 'shared/Button',
@@ -31,8 +31,6 @@ Outline.args = {
     children: 'Text',
     theme: ButtonTheme.OUTLINE,
 };
-
-
 
 export const OutlineDark = Template.bind({});
 OutlineDark.args = {
